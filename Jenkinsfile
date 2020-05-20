@@ -21,7 +21,7 @@ pipeline {
 		}
 
 	}
-	
+
 	post {
 
 		always {
@@ -30,6 +30,10 @@ pipeline {
 
 		success {
 			echo 'I am a success whore'
+		}
+
+		failure {
+			echo 'Tool 3omrak hatefdal fashel'
 		}
 
 	}
