@@ -21,4 +21,16 @@ pipeline {
 		}
 
 	}
+	
+	post {
+
+		always {
+			echo 'I always run'
+		}
+
+		success {
+			echo 'I am a success whore'
+		}
+
+	}
 }
